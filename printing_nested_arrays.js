@@ -4,7 +4,7 @@ function printItems(array) {
       // Print out all it's items individually
       printItems(item);
     } else {
-      console.log(item);
+      return item;
     }
   });
 }
